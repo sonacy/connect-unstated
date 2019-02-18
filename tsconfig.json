@@ -11,9 +11,14 @@
     "moduleResolution": "node",
     "experimentalDecorators": true,
     "esModuleInterop": true,
-    "rootDir": "src"
+    "rootDir": "src",
+    "declaration": true
   },
   "include": [
     "./src/**/*"
+  ],
+  "exclude": [
+    "./src/example/**/*",
+    "node_modules"
   ]
 }

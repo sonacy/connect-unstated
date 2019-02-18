@@ -4,7 +4,7 @@ import { Subscribe } from 'unstated'
 
 type MapFunc = (...args: any[]) => {}
 
-const connect = (...args: any[]) => (getFromContainer: MapFunc) => (
+export const connect = (...args: any[]) => (getFromContainer: MapFunc) => (
 	Component: ReactComponentLike
 ) => (props: any) => (
 	<Subscribe to={args}>
@@ -15,5 +15,3 @@ const connect = (...args: any[]) => (getFromContainer: MapFunc) => (
 		}}
 	</Subscribe>
 )
-
-export default connect

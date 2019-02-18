@@ -110,8 +110,8 @@ concat-map@0.0.1:
 
 create-react-context@^0.1.5:
   version "0.1.6"
-  resolved "http://registry.npm.taobao.org/create-react-context/download/create-react-context-0.1.6.tgz#0f425931d907741127acc6e31acb4f9015dd9fdc"
-  integrity sha1-D0JZMdkHdBEnrMbjGstPkBXdn9w=
+  resolved "https://registry.yarnpkg.com/create-react-context/-/create-react-context-0.1.6.tgz#0f425931d907741127acc6e31acb4f9015dd9fdc"
+  integrity sha512-eCnYYEUEc5i32LHwpE/W7NlddOB9oHwsPaWtWzYtflNkkwa3IfindIcoXdVWs12zCbwaMCavKNu84EXogVIWHw==
 
 csstype@^2.2.0:
   version "2.6.2"
@@ -351,8 +351,8 @@ typescript@^3.3.3:
 
 unstated@^2.1.1:
   version "2.1.1"
-  resolved "http://registry.npm.taobao.org/unstated/download/unstated-2.1.1.tgz#36b124dfb2e7a12d39d0bb9c46dfb6e51276e3a2"
-  integrity sha1-NrEk37LnoS050LucRt+25RJ246I=
+  resolved "https://registry.yarnpkg.com/unstated/-/unstated-2.1.1.tgz#36b124dfb2e7a12d39d0bb9c46dfb6e51276e3a2"
+  integrity sha512-fORlTWMZxq7NuMJDxyIrrYIZKN7wEWYQ9SiaJfIRcSpsowr6Ph/JIfK2tgtXLW614JfPG/t5q9eEIhXRCf55xg==
   dependencies:
     create-react-context "^0.1.5"
 

@@ -1,11 +1,10 @@
 {
-  "name": "connect-unstated",
-  "version": "0.0.1",
-  "private": false,
+  "name": "connected-unstated",
+  "version": "0.0.4",
   "description": "hoc for unstated",
-  "main": "dist/src/index.js",
-  "module": "dist/src/index.js",
-  "types": "dist/src/index.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": "git@github.com:sonacy/connect-unstated.git",
   "author": "gulei <gl195295@alibaba-inc.com>",
   "scripts": {
@@ -22,7 +21,9 @@
     "tslint": "^5.12.1",
     "tslint-config-prettier": "^1.18.0",
     "tslint-react": "^3.6.0",
-    "typescript": "^3.3.3",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {
     "unstated": "^2.1.1"
   }
 }
