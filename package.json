@@ -1,0 +1,28 @@
+{
+  "name": "connect-unstated",
+  "version": "0.0.1",
+  "private": false,
+  "description": "hoc for unstated",
+  "main": "dist/src/index.js",
+  "module": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "repository": "git@github.com:sonacy/connect-unstated.git",
+  "author": "gulei <gl195295@alibaba-inc.com>",
+  "scripts": {
+    "build": "rm -rf dist && tsc -p ./tsconfig.json -d",
+    "prepare": "npm run build"
+  },
+  "files": [
+    "dist/"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^16.8.3",
+    "react": "^16.8.1",
+    "tslint": "^5.12.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.3.3",
+    "unstated": "^2.1.1"
+  }
+}
